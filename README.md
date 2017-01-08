@@ -13,7 +13,7 @@ var foo = {
 };
 ```
 
-We have a hidden property __proto__ that points to the object’s prototype, which in this case is Object.prototype. There is a notion of __explicit__ and __implicit__ properties. Explicit properties are named while implicit properties are built into the object either through the __prototype chain__ or through the language itself. 
+We have a hidden property **__proto__** that points to the object’s prototype, which in this case is Object.prototype. There is a notion of __explicit__ and __implicit__ properties. Explicit properties are named while implicit properties are built into the object either through the __prototype chain__ or through the language itself. 
 
 > Note: A prototype chain is the finite chain of objects which is used to implement inheritance and shared properties.
 
