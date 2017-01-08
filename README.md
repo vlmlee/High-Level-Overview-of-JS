@@ -1,4 +1,6 @@
 ### Notes from http://dmitrysoshnikov.com/ecmascript/javascript-the-core/
+#### Written by: Dmitry A. Soshnikov
+#### Published on: 2010-09-02
 
 # High Level Overview of JS
 
