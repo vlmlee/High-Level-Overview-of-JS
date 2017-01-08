@@ -59,7 +59,7 @@ A __variable object__ is a __container of data__ associated with the execution c
 
 In ECMAScript, __only functions create new scopes__. Variables and functions defined within a scope of a function __are not visible__ directly outside of that scope so that the global variable object does not get polluted. There is no block scope in ECMAScript. 
 
-When a function is activated, or called by the caller, a special object called the __activation object__ is created. It’s filled with formal parameters and the special arguments object which is a map of formal parameters but with index properties. The activation object is then __used as the variable object__. function Foo(x, y, []) ...
+When a function is activated, or called by the caller, a special object called the __activation object__ is created. It’s filled with formal parameters and the special arguments object which is a map of formal parameters but with index properties. The activation object is then __used as the variable object__.
 
 ### Scope Chain
 
