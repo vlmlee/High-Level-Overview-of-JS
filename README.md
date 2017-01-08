@@ -26,11 +26,9 @@ If a prototype is not specified for an object explicitly, the default value of _
 
 A constructor function does a useful thing: it __automatically sets a prototype object for newly created objects__. 
 
-To define shared and inherited properties or methods to an object, we have to add those properties or methods to the object’s prototype. For example, Foo.prototype.new_method = function() { ... 
+To define shared and inherited properties or methods to an object, we have to add those properties or methods to the object’s prototype.
 
 > Note: Functions also have prototypes called Function.prototype.
-
-In ES6, we have classes which is just syntactic sugar on top of constructor functions. We can use __extends__ to do inheritance instead of using prototypical inheritance. class Foo extends Bar { ... 
 
 ## Execution Context Stack
 
